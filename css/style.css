@@ -60,11 +60,29 @@ img {
     float: right;
     max-width: 50%;
     margin-right: 10%;
-    margin-top: 10%;
+    margin-top: 8%;
+    text-align: justify;
+}
+
+.bold {
+    font-weight: bold;
 }
 
 .skills {
     background-color: #9b76e3;
     color: #fff;
     padding: 20px 20px;
+}
+
+.skills-list {
+    margin: 20px;
+    list-style: upper-roman;
+}
+
+.skills-list li {
+    padding: 5px;
+}
+
+.skills-list li:active {
+    color: indigo;
 }
