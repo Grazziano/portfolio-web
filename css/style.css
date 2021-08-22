@@ -4,16 +4,17 @@
 }
 
 body {
-    background-color: #F1F2E4;
+    background-color: #EFF2C0;
     font-family: 'Montserrat', sans-serif;
 }
 
 img {
-    border-radius: 100%;
+    border-radius: 20px;
     width: 300px;
 }
 
-.title {
+.my-name {
+    color: #BEA57D;
     font-family: 'Roboto Slab', serif;
     font-size: 30px;
 }
@@ -24,7 +25,7 @@ img {
 }
 
 .header {
-    background-color: #6f41c2;
+    background-color: #BEA57D;
     box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.5);
     padding: 20px 20px;
     width: 100%;
@@ -38,8 +39,8 @@ img {
 }
 
 .header a:hover {
-    border-bottom: 4px solid #3dd697;
-    color: #3dd697;
+    border-bottom: 4px solid #A52422;
+    color: #A52422;
     transition-duration: 0.8s;
 }
 
@@ -50,17 +51,20 @@ img {
     text-align: center;
 }
 
-.section-name {
+.my-picture {
+    background-color: #a4bab7;
+    border-radius: 20px;
     float: left;
     margin-left: 10%;
     max-width: 50%;
+    padding: 10px;
 }
 
 .section-description {
     float: right;
     max-width: 50%;
     margin-right: 10%;
-    margin-top: 8%;
+    margin-top: 6%;
     text-align: justify;
 }
 
@@ -69,7 +73,7 @@ img {
 }
 
 .skills {
-    background-color: #9b76e3;
+    background-color: #BEA57D;
     color: #fff;
     padding: 20px 20px;
 }
@@ -83,6 +87,11 @@ img {
     padding: 5px;
 }
 
+.skills-list li:nth-child(odd) {
+    background-color: #a4bab7;
+    border-radius: 5px;
+}
+
 .skills-list li:active {
-    color: indigo;
+    color: #A52422;
 }
