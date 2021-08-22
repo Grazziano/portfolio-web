@@ -42,3 +42,29 @@ img {
     color: #3dd697;
     transition-duration: 0.8s;
 }
+
+.section {
+    display: inline-block;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    text-align: center;
+}
+
+.section-name {
+    float: left;
+    margin-left: 10%;
+    max-width: 50%;
+}
+
+.section-description {
+    float: right;
+    max-width: 50%;
+    margin-right: 10%;
+    margin-top: 10%;
+}
+
+.skills {
+    background-color: #9b76e3;
+    color: #fff;
+    padding: 20px 20px;
+}
